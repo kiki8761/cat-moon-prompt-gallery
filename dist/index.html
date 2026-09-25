@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="芒果和葡萄的九组中秋月宫写真：看原图与 AI 成片，复制喜欢的场景提示词。">
+  <title>芒果和葡萄的月宫写真｜原图、AI 成片与提示词</title>
+  <meta property="og:title" content="芒果和葡萄的月宫写真">
+  <meta property="og:description" content="九组原图和 AI 月宫写真，喜欢哪张就复制提示词试一试。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231d3044'/%3E%3Cpath d='M43 10a21 21 0 1 0 11 36A23 23 0 1 1 43 10Z' fill='%23ecd9aa'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">跳到案例</a>
+  <header class="hero mooncake-hero" id="top">
+    <img class="hero-background" src="./images/cats-01-generated-v4.png" alt="芒果和葡萄在月宫一起吃一只巨大的月饼" fetchpriority="high">
+    <div class="hero-inner">
+      <div class="hero-topline"><span class="brand-mark" aria-hidden="true">◐</span><span>MANGO & GRAPE · MOON PALACE</span><span class="hero-index">芒果和葡萄的中秋小旅行</span></div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">芒果 × 葡萄 / 中秋写真</p>
+          <h1>小🥭和小🍇<br>去月宫啃大月饼喽~~</h1>
+          <p class="hero-lead">普通照片 + 一段提示词，<br>把猫咪送进月宫。</p>
+          <p class="hero-description">从家里的随手拍出发，给它们换上一片桂花、云海和月光。</p>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>九组原图 × 九组月宫写真</span><a href="#gallery" class="explore-link">去看它们的月宫照片 <span aria-hidden="true">↓</span></a></div>
+    </div>
+  </header>
+
+  <main class="site-main" id="gallery">
+    <div class="section-header">
+      <div><p class="eyebrow">BEFORE / AFTER</p><h2>中秋主题猫猫写真 <span class="case-count" id="case-count">09</span></h2></div>
+      <p>左边是我拍的原图，右边是 AI 生成的月宫版本。</p>
+    </div>
+    <nav class="filters" aria-label="按猫咪筛选">
+      <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部 <span>09</span></button>
+      <button type="button" class="filter" data-filter="芒果" aria-pressed="false">芒果 <span>03</span></button>
+      <button type="button" class="filter" data-filter="葡萄" aria-pressed="false">葡萄 <span>03</span></button>
+      <button type="button" class="filter" data-filter="双猫" aria-pressed="false">合照 <span>03</span></button>
+    </nav>
+    <p class="how-to">也想带自家猫咪去月宫？<span>选喜欢的场景，上传猫咪照片作参考，再复制这张卡片里的完整提示词。</span></p>
+    <div class="gallery-list" id="case-list" aria-live="polite"></div>
+    <p class="gallery-note">图片是 AI 创作，效果会随参考照片而变化。点击照片可以放大看细节。</p>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-meta">
+      <p>by kiki的AI日常</p>
+      <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026018722号-1</a></p>
+      <p><a href="https://beian.mps.gov.cn/" target="_blank" rel="noopener noreferrer">京公网安备11011502039877号</a></p>
+    </div>
+    <a href="#top">回到顶部 ↑</a>
+  </footer>
+
+  <dialog id="image-dialog" class="image-dialog" aria-label="查看大图">
+    <div class="dialog-bar"><span id="dialog-title"></span><button type="button" id="dialog-close" aria-label="关闭大图">关闭 ×</button></div>
+    <img id="dialog-image" alt="">
+  </dialog>
+</body>
+</html>

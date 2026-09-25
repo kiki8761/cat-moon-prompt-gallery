@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*部署指南*
+*部署交接*
