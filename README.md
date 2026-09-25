@@ -5,13 +5,6 @@
 - 网站地址：<https://cat-aixiezhen.tools.kikiaigc.com/>（腾讯云部署完成后启用）
 - 现有预览：<https://cat-moon-prompt-gallery.kiki87612.chatgpt.site/>
 
-## 作者
-
-- 创意与照片：星月（kiki8761）
-- 网页设计与实现：Codex（OpenAI）
-
-网页页脚按星月的要求保留「by kiki的AI日常」及备案信息。
-
 ## 目录
 
 - `dist/index.html`：页面结构
