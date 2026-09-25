@@ -2,7 +2,7 @@
 
 九组猫咪中秋月宫写真，展示原图、AI 成片和完整提示词。网页是纯静态项目，直接打开 `dist/index.html` 即可浏览；部署时将 `dist/` 内的文件放入网站根目录。
 
-- 网站地址：<https://cat-aixiezhen.tools.kikiaigc.com/>（腾讯云部署完成后启用）
+- 网站地址：<https://cat-aixiezhen.tools.kikiaigc.com/>
 - 现有预览：<https://cat-moon-prompt-gallery.kiki87612.chatgpt.site/>
 
 ## 目录
